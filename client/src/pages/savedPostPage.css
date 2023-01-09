@@ -1,0 +1,46 @@
+.savedPostPage{
+    display: flex;
+}
+
+.tweetContainer{
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+}
+.pageContent{
+    overflow-y: scroll;
+    height: calc(100vh - 4rem);
+    width: 100%;
+}
+.leftSideBar{
+  width: 30rem;
+  background-color: #657786 ;
+  height:calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.sideBartext{
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    height: 80%;
+    width: 90%;
+}
+
+.sideBartext > p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    .tweetContainer{
+        width: 100%;
+        padding: 0;
+    }
+    
+}

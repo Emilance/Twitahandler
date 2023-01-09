@@ -1,0 +1,71 @@
+.tweetSearch{
+    height: 7rem;
+    border: 1px solid #508eb8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchField{
+    width: 60%;
+    border:  1px solid #657786;
+    border-radius: 3rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.searchField > input{
+   flex: 1;
+   height: 70%;
+   font-size: 1.2rem;
+   border: none;
+   outline: none;
+   padding:0 1rem ;
+   background-color: transparent;
+}
+.searchIcon{
+    flex:0.09;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 3rem;
+}
+.icon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btn{
+    height: 2.3rem;
+    width: 12rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #508eb8;
+    color:white;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    transform: scale(1.02);
+}
+
+.topSection{
+    height: 10rem;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .searchIcon{
+        flex:0.6;
+    }
+    .searchField{
+         width: 78%;
+      
+    }
+}

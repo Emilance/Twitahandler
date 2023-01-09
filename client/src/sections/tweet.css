@@ -1,0 +1,41 @@
+.tweet{
+    margin-top: 2rem;
+    box-shadow: 1px 1px 5px #657786;
+    padding-top:0.3rem;
+    border-radius: 10px;
+}
+
+
+
+.tweetMedia{
+    width: 100%;
+    height: fit-content;
+}
+
+.tweetMedia > img{
+     width: 100%;
+     height: 100%;
+     border-radius: 1rem;
+}
+.tweetTextBody{
+    margin:2rem 0;
+}
+
+.tweetTextBody > p {
+    margin:0 1rem;
+}
+
+.tweetButtonContainer{
+    display: flex;
+}
+
+.tweetButton{
+    width: 33.3%;
+    height: 3rem;
+    border: 1px solid #657786;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}

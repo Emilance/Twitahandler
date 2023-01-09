@@ -1,0 +1,2 @@
+FLASK_APP= twitahandler
+FLASK_ENVIRONMENT = development
