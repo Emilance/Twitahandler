@@ -1,2 +1,2 @@
-FLASK_APP= twitahandler
-FLASK_ENVIRONMENT = development
+export  FLASK_APP= app
+export  FLASK_ENVIRONMENT = development
