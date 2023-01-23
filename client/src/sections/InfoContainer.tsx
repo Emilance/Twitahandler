@@ -1,3 +1,4 @@
+import "./infoContainer.css"
 
 
 const UserInfo = () => {
@@ -11,6 +12,9 @@ const UserInfo = () => {
                 <p>Lorem, ipsum dolor.</p>
                 <p>Lorem, ipsum dolor.</p>
             </div>
+           <div className="rightDiv">
+                          jfjfj
+           </div>
         </div>
      );
 }

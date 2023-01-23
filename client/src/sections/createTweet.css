@@ -28,11 +28,13 @@
 .textarea {
     display: block;
     width: 95%;
-    overflow: scroll;
-    padding: 0.5rem;
     overflow: hidden;
+    padding: 0.5rem;
     resize: both;
-    min-height: 40px;
+    background-color:transparent;
+    outline: none;
+    color: white;
+    min-height: 12rem;
     max-height: 15rem;
     line-height: 20px;
   }

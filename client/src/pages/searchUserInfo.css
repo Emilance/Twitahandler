@@ -107,11 +107,13 @@
 }
 .userInfoCon > p {
     width: 100%;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1DA1F2;
 }
 .userInfoCon > p >span {
     font-weight: 600;
+    color: black;
 }
 
 @media (max-width: 600px) {
@@ -127,5 +129,7 @@
     .topSection{
         width: 100%;
     }
-    
+    .userInfoCon > p {
+       font-size: 1rem;   
+    }
 }

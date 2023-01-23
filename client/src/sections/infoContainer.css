@@ -1,0 +1,12 @@
+.UserInfoButtonSection{
+    display:flex;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.closeFriends{
+    flex:1;
+}
+.rightDiv{
+    flex:1;
+}

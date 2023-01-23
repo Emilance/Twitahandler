@@ -5,6 +5,7 @@ import Header from './sections/Header'
 import HomePage from './pages/Homepage'
 import SavedpostPage from './pages/SavedPostPage'
 import SearchUserInfo from './pages/SearchUserInfo'
+import { Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -13,9 +14,15 @@ function App() {
   return (
     <div className="App">
           <Header/>
-          {/* <HomePage/> */}
-          {/* <SavedpostPage/> */}
-          <SearchUserInfo/>
+          <Routes>
+              <Route path='/' element={<HomePage/> } />
+              <Route path='/savedtweet' element={<SavedpostPage/> } />
+              <Route path='/lookupuser' element={<SearchUserInfo/>} />
+
+          </Routes>
+    
+    
+          
     </div>
   )
 }
